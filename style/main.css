@@ -1,0 +1,549 @@
+body {
+    background-color: #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    align-items: center;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+
+.nav {
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.nav__link {
+    color: #19191C;
+    text-decoration: none;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.btn-box__link {
+    color: #19191C;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.btn-box__btn {
+    background: #19191C;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 12px 37px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 167px;
+    padding-bottom: 195px;
+    position: relative;
+}
+
+.offer__holder {
+    width: 648px;
+    overflow: visible;
+}
+
+.offer__holder img {
+    position: absolute;
+    bottom: 100px;
+    left: -180px;
+    z-index: -1;
+}
+
+.course__duration {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.course__duration::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #504DEE;
+}
+
+.offer__profession {
+    margin: 0;
+    padding-top: 32px;
+}
+
+.common__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.offer__description {
+    padding-bottom: 50px;
+}
+
+.start__btn {
+    background: #504DEE;
+    color: #FBFBFC;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 16px 37px;
+}
+
+.offer__sale {
+    padding-top: 110px;
+}
+
+.offer__time {
+    margin: 0;
+    padding-top: 8px;
+    font-weight: 700;
+}
+
+.profession-box {
+    margin: 0;
+}
+
+.girl__img {
+    position: absolute;
+    right: -250px;
+    bottom: 0;
+    background-image: url("../img/rectangle_girl.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left 120px;
+}
+
+.ellipse__girl {
+    position: absolute;
+    right: -231px;
+    bottom: 100px;
+}
+
+.offer__item {
+    position: absolute;
+    border: #19191C solid 2px;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 36px;
+    list-style: none;
+}
+
+.offer__proto-pie {
+    top: 176px;
+    right: 220px;
+}
+
+.offer__in-vision {
+    top: 242px;
+    right: -3px;
+}
+
+.offer__miro {
+    top: 260px;
+    right: 484px;
+}
+
+.offer__photoshop {
+    top: 442px;
+    right: 464px;
+}
+
+.offer__figma {
+    top: 569px;
+    right: 674px;
+}
+
+.offer__illustrator {
+    top: 746px;
+    right: 606px;
+}
+
+.about {
+    padding-top: 168px;
+}
+
+.salary__holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__holder {
+    margin: 0;
+    width: 588px;
+}
+
+.grey-color {
+    color: #6D6D77;
+}
+
+.hiring__block {
+    display: flex;
+    justify-content: space-between;
+    gap: 103px;
+}
+
+.title__helper {
+    margin: 0;
+    padding-bottom: 21px;
+}
+
+.hiring__line {
+    margin: 0;
+    border: none;
+    height: 4px;
+    background-color: #19191C;
+    width: 254px;
+}
+
+.about__description {
+    margin: 0;
+}
+
+.green-color {
+    background-color: #DEEFE4;
+}
+
+.yellow-color {
+    background-color: #F3F3D7;
+}
+
+.rose-color {
+    background-color: #EFDEEE;
+}
+
+.acquisitions {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.acquisitions__box {
+    margin-top: 168px;
+    padding: 68px 48px;
+}
+
+.box__title {
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+}
+
+.box__line {
+    margin: 28px 0 0 0;
+    border: none;
+    height: 4px;
+    background-color: #19191C;
+    width: 100%;
+}
+
+.prices {
+    margin-top: 171px;
+}
+
+.prices__cards {
+    margin-top: 100px;
+    margin-bottom: 168px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.blue-color {
+    background-color: #504DEE;
+}
+
+.white-text {
+    color: #FBFBFC;
+}
+
+.card__box {
+    padding: 48px 68px;
+    height: 732px;
+    width: 466px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price_box__list {
+    margin-top: 47px;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.price_box__item {
+    margin-top: 22px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.price_box__item::before {
+    content: ""; /* Добавляем пустой контент для псевдоэлемента */
+    display: inline-block; /* Превращаем псевдоэлемент в блочный элемент */
+    width: 8px; /* Задаем ширину квадрата */
+    height: 8px; /* Задаем высоту квадрата */
+    background-color: #19191C;
+    position: absolute; /* Позиционируем квадрат абсолютно относительно li */
+    left: 0; /* Располагаем квадрат в левом краю li */
+    transform: translateY(100%); /* Выравниваем квадрат по вертикали по центру li */
+}
+
+.price_box__item-white {
+    margin-top: 22px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.price_box__item-white::before {
+    content: ""; /* Добавляем пустой контент для псевдоэлемента */
+    display: inline-block; /* Превращаем псевдоэлемент в блочный элемент */
+    width: 8px; /* Задаем ширину квадрата */
+    height: 8px; /* Задаем высоту квадрата */
+    background-color: #F3F3D7;
+    position: absolute; /* Позиционируем квадрат абсолютно относительно li */
+    left: 0; /* Располагаем квадрат в левом краю li */
+    transform: translateY(100%); /* Выравниваем квадрат по вертикали по центру li */
+}
+
+.lower-box {
+    margin-bottom: 20px;
+}
+
+.full_price {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 3px;
+}
+
+.space {
+    margin-bottom: 36px;
+}
+
+.choose__btn {
+    padding: 16px 36px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.choose__btn-black {
+    color: #FBFBFC;
+    background-color: #19191C;
+}
+
+.choose__btn-white {
+    color: #504DEE;
+    background-color: #FBFBFC;
+}
+
+.footer {
+    background-color: #19191C;
+}
+
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-top: 59px;
+}
+
+.footer_logo {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-decoration: none;
+    color: #EFEFF2;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 15px;
+}
+
+.contact__link {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-decoration: none;
+    color: #EFEFF2;
+}
+
+.sitemap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.sitemap__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #EFEFF2;
+    margin: 0;
+    padding-top: 68px;
+    padding-bottom: 28px;
+}
+
+.sitemap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__links {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color: #EFEFF2;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 100px;
+    padding-bottom: 62px;
+}
+
+.copyright__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+    margin: 0;
+}
+
+.policy__link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    color: #6D6D77;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .header__box {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav {
+
+    }
+    .nav__list {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /*#######################SECTIONS###########################*/
+
+    .offer {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .offer__holder img {
+        bottom: 250px;
+        left: -50px;
+        width: 120%;
+    }
+
+    .offer__description {
+        padding-bottom: 15px;
+    }
+
+
+
+
+    .girl__img {
+        width: 100%;
+        background-image: none;
+        right: 0;
+    }
+
+    .ellipse__girl {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+
+}
